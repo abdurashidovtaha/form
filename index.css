@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.username {
+    position: relative;
+    top: 5px;
+    right: 12px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+header {
+    height: 150px;
+}
+
+header .name {
+    color: black;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: "Baloo 2", "cursive";
+    width: 400px;
+}
+
+header .topbar {
+    position: relative;
+    text-align: right;
+    bottom: 120px;
+}
+
+header .logout-btn {
+    position: relative;
+    background-color: #fff;
+    border: 1px solid black;
+    font-size: 20px;
+    bottom: 60px;
+    left: 75px;
+}
+
+.btns {
+    position: relative;
+    bottom: 20px;
+}
+
+.btn {
+    font-size: 30px;
+    margin-right: 60px;
+    margin-left: 30px;
+}
+
+.purchases {
+    position: relative;
+    right: 40px;
+    margin-top: 40px;
+    list-style-type: none;
+    height: 200px;
+}
+
+.purchases img {
+    height: 200px;
+}
+
+.purchases .price {
+    position: relative;
+    left: 295px;
+    font-size: 25px;
+    bottom: 220px;
+}
+
+.purchases .options {
+    position: relative;
+    left: 280px;
+    bottom: 230px;
+}
+
+.purchasebtn, .editbtn {
+    font-size: 18px;
+    display: block;
+    margin: 10px;
+    width: 150px;
+    height: 50px;
+}
+
+.purchasebtn {
+    margin-top: 47px;
+}
+
+button {
+    background-color: #FEBD69;
+    border: 1px solid #FEBD69;
+    color: #303942;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.topbar img {
+    position: relative;
+    top: 20px;
+    border-radius: 50%;
+}
